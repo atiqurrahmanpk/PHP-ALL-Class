@@ -1,4 +1,5 @@
 Here’s a list of some of the most commonly used built-in PHP string functions, along with examples:
+
 1. strlen()
 
     Description: Returns the length of a string.

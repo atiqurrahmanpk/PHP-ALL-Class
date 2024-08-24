@@ -26,6 +26,13 @@
 
         </h2>
 
+        <?php
+        $string = "Hello, World!";
+        echo strlen($string), "<br>"; // Output: 13
+
+        $string = "Hello, World!";
+    echo strpos($string, "World"); // Output: 7
+        ?>
     </div>
 </body>
 </html>
