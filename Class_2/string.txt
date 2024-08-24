@@ -1,0 +1,258 @@
+Here’s a list of some of the most commonly used built-in PHP string functions, along with examples:
+1. strlen()
+
+    Description: Returns the length of a string.
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo strlen($string); // Output: 13
+
+2. strpos()
+
+    Description: Finds the position of the first occurrence of a substring in a string.
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo strpos($string, "World"); // Output: 7
+
+3. str_replace()
+
+    Description: Replaces all occurrences of a search string with a replacement string.
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo str_replace("World", "PHP", $string); // Output: Hello, PHP!
+
+4. substr()
+
+    Description: Returns a portion of a string.
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo substr($string, 7, 5); // Output: World
+
+5. trim()
+
+    Description: Strips whitespace (or other characters) from the beginning and end of a string.
+    Example:
+
+    php
+
+    $string = "  Hello, World!  ";
+    echo trim($string); // Output: "Hello, World!"
+
+6. strtolower()
+
+    Description: Converts all characters in a string to lowercase.
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo strtolower($string); // Output: hello, world!
+
+7. strtoupper()
+
+    Description: Converts all characters in a string to uppercase.
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo strtoupper($string); // Output: HELLO, WORLD!
+
+8. explode()
+
+    Description: Splits a string into an array by a specified delimiter.
+    Example:
+
+    php
+
+    $string = "apple,banana,cherry";
+    $array = explode(",", $string);
+    print_r($array); // Output: Array ( [0] => apple [1] => banana [2] => cherry )
+
+9. implode()
+
+    Description: Joins array elements into a single string using a delimiter.
+    Example:
+
+    php
+
+    $array = ["apple", "banana", "cherry"];
+    echo implode(", ", $array); // Output: apple, banana, cherry
+
+10. htmlspecialchars()
+
+    Description: Converts special characters to HTML entities.
+    Example:
+
+    php
+
+    $string = "<a href='test'>Test</a>";
+    echo htmlspecialchars($string); // Output: &lt;a href=&#039;test&#039;&gt;Test&lt;/a&gt;
+
+11. md5()
+
+    Description: Calculates the MD5 hash of a string.
+    Example:
+
+    php
+
+    $string = "password";
+    echo md5($string); // Output: 5f4dcc3b5aa765d61d8327deb882cf99
+
+12. sha1()
+
+    Description: Calculates the SHA-1 hash of a string.
+    Example:
+
+    php
+
+    $string = "password";
+    echo sha1($string); // Output: 5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+
+13. strrev()
+
+    Description: Reverses a string.
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo strrev($string); // Output: !dlroW ,olleH
+
+14. nl2br()
+
+    Description: Inserts HTML line breaks before all newlines in a string.
+    Example:
+
+    php
+
+    $string = "Hello\nWorld!";
+    echo nl2br($string); // Output: Hello<br />World!
+
+15. strcmp()
+
+    Description: Compares two strings (case-sensitive).
+    Example:
+
+    php
+
+    $string1 = "Hello";
+    $string2 = "hello";
+    echo strcmp($string1, $string2); // Output: -1 (because "H" < "h")
+
+16. strcasecmp()
+
+    Description: Compares two strings (case-insensitive).
+    Example:
+
+    php
+
+    $string1 = "Hello";
+    $string2 = "hello";
+    echo strcasecmp($string1, $string2); // Output: 0 (because "Hello" == "hello")
+
+17. stristr()
+
+    Description: Finds the first occurrence of a string inside another string (case-insensitive).
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo stristr($string, "world"); // Output: World!
+
+18. str_repeat()
+
+    Description: Repeats a string a specified number of times.
+    Example:
+
+    php
+
+    $string = "Hello ";
+    echo str_repeat($string, 3); // Output: Hello Hello Hello 
+
+19. ucfirst()
+
+    Description: Converts the first character of a string to uppercase.
+    Example:
+
+    php
+
+    $string = "hello, world!";
+    echo ucfirst($string); // Output: Hello, world!
+
+20. ucwords()
+
+    Description: Converts the first character of each word in a string to uppercase.
+    Example:
+
+    php
+
+    $string = "hello, world!";
+    echo ucwords($string); // Output: Hello, World!
+
+21. addslashes()
+
+    Description: Adds backslashes before characters that need to be escaped in a string.
+    Example:
+
+    php
+
+    $string = "Hello 'World'!";
+    echo addslashes($string); // Output: Hello \'World\'!
+
+22. strip_tags()
+
+    Description: Strips HTML and PHP tags from a string.
+    Example:
+
+    php
+
+    $string = "<p>Hello, <b>World</b>!</p>";
+    echo strip_tags($string); // Output: Hello, World!
+
+23. strstr()
+
+    Description: Finds the first occurrence of a string inside another string (case-sensitive).
+    Example:
+
+    php
+
+    $string = "Hello, World!";
+    echo strstr($string, "World"); // Output: World!
+
+24. wordwrap()
+
+    Description: Wraps a string to a given number of characters.
+    Example:
+
+    php
+
+    $string = "The quick brown fox jumps over the lazy dog.";
+    echo wordwrap($string, 15, "<br />\n");
+    // Output:
+    // The quick brown<br />
+    // fox jumps over<br />
+    // the lazy dog.
+
+25. parse_str()
+
+    Description: Parses a query string into variables.
+    Example:
+
+    php
+
+$queryString = "name=John&age=25";
+parse_str($queryString, $output);
+print_r($output); // Output: Array ( [name] => John [age] => 25 )
