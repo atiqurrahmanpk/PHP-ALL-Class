@@ -1,33 +1,25 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nest Class</title>
-</head>
-<body>
-    <div>
-        <h2 style="text-align: center;">
-            <?php
-            include "var.php";
-        
-            echo $next_cl;
-            ?>
+<?php
+$Json_Data = file_get_contents('datatype.json');
 
-        </h2>
-    </div>
-    <div>
-    <h2 style="text-align: center;">
-            <?php
-            include "var.php";
-        
-            echo $com_soon;
-            ?>
+$datatype = json_decode($Json_Data, true);
+//=================
 
-        </h2>
+$title = "Homepage";
+include "header.php";
+?>
 
-    </div>
-</body>
-</html>
+<P>Variables can store data of different types, and different data types can do different things.</P>
+<strong>PHP supports the following data types:</strong>
 
+<ul>
+            <?php foreach ($datatype['ski_lls'] as $skills): ?>
+                <a href="string.php"><li><?php echo $skills; ?></li></a>
+            <?php endforeach; ?>
+</ul>
 
+<h2>Data Type</h2>
+<ul>
+    <?php foreach ($datatype['Jobs'] as $job_Skill): ?>
+    <li> <?php echo $job_Skill; ?></li>
+    <?php endforeach; ?>
+</ul>

@@ -8,17 +8,19 @@
         "website": "https://www.johndoedev.com"
     },
     "profile": "Experienced PHP and Laravel developer with over 10 years of experience in web development and 5 years in teaching. Passionate about coding, mentoring, and helping students become proficient developers.",
-    "ski_lls": [
-     "String",
-    "Integer",
-    "Float (floating point numbers - also called double)",
-    "Boolean",
-    "Array",
-    "Object",
-    "NULL",
-    "Resource"
+    "skills": [
+        "PHP",
+        "Laravel",
+        "MySQL",
+        "JavaScript",
+        "HTML/CSS",
+        "Vue.js",
+        "Git",
+        "RESTful APIs",
+        "OOP",
+        "MVC Architecture"
     ],
-"experience": [
+    "experience": [
         {
             "position": "PHP & Laravel Instructor",
             "company": "Tech Academy",
@@ -108,4 +110,3 @@
         }
     ]
 }
-
