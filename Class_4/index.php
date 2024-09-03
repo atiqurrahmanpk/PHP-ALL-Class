@@ -17,9 +17,3 @@ include "header.php";
             <?php endforeach; ?>
 </ul>
 
-<h2>Data Type</h2>
-<ul>
-    <?php foreach ($datatype['Jobs'] as $job_Skill): ?>
-    <li> <?php echo $job_Skill; ?></li>
-    <?php endforeach; ?>
-</ul>

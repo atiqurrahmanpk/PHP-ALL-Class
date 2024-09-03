@@ -3,7 +3,7 @@
 <nav>
 <a href="index.php">Home</a> |
     <a href="string.php">String</a> |
-    <a href="">Integer</a> |
+    <a href="array.php">Array</a> |
     <a href="">Float</a> |
     <a href="">Boolean</a> |
     <a href="">Array</a>
