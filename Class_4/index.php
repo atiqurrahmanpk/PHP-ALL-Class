@@ -12,8 +12,9 @@ include "header.php";
 <strong>PHP supports the following data types:</strong>
 
 <ul>
-            <?php foreach ($datatype['ski_lls'] as $skills): ?>
-                <a href="string.php"><li><?php echo $skills; ?></li></a>
+            <?php foreach ($datatype['Data_Type'] as $Data_Type_s): ?>
+                <li><?php echo $Data_Type_s; ?></li>
+                
             <?php endforeach; ?>
 </ul>
 

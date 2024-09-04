@@ -1,5 +1,5 @@
 {
-    "ski_lls": [
+    "Data_Type": [
      "String",
     "Integer",
     "Float (floating point numbers - also called double)",
@@ -8,7 +8,7 @@
     "Object",
     "NULL",
     "Resource"
- ],
+],
   
     "common_string":[
         "strlen() - Returns the length of a string.",
@@ -42,6 +42,44 @@
         "Indexed_arrays": "- Arrays with a numeric index",
         "Associative_arrays": "-Arrays with named keys",
         "Multidimensional_arrays": "-Arrays containing one or more arrays"      
-    }
+    },
+
+"string_type":[
+{
+"Modify_Strings":[
+    ". Upper Case",
+    ". Lower Case",
+    ". Replace String",
+    ". Reverse a String",
+    ". Remove Whitespace",
+    ". Convert String into Array"
+
+],
+"Concatenate_Strings":"To concatenate, or combine, two strings you can use the . operator",
+"Slicing_Strings":[
+    ". Slicing",	
+    ". Slice to the End",
+    ". Slice From the End",
+    ". Negative Length"
+    ],
+"Escape_Characters":[
+". Single Quote",	
+". Double Quote ",
+". PHP variables ",
+". New Line",
+". Carriage Return ",
+". Tab ",	
+". Form Feed ",
+". Octal value",	
+". Hex value"
+]
 
 }
+
+
+]
+
+
+
+}
+

@@ -77,7 +77,7 @@ $cv = json_decode($json_data, true);
         <?php foreach ($cv['projects'] as $project): ?>
             <h3><?php echo $project['name']; ?></h3>
             <p><?php echo $project['description']; ?></p>
-            <p><strong>Technologies used:</strong> <?php echo implode(', ', $project['technologies']); ?></p>
+            <p><strong>Technologies used:<br></strong> <?php echo implode('<br>', $project['technologies']); ?></p>
         <?php endforeach; ?>
 
         <h2>References</h2>

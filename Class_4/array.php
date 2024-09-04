@@ -14,7 +14,7 @@ $title = "Array";
 <ul>
             <li>Indexed Arrays: <?= $datatype['array_type']['Indexed_arrays']; ?></li>
             <li>Associative Aarrays: <?= $datatype['array_type']['Associative_arrays']; ?></li>
-            <li>Multidimensional Arrays: <?= $datatype['array_type']['Multidimensional_arrays']; ?></li>
+            <a href="index.php"><li>Multidimensional Arrays:<?= $datatype['array_type']['Multidimensional_arrays']; ?></li></a>
             
             
         </ul>

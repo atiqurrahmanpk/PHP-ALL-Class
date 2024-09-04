@@ -6,7 +6,9 @@
     <a href="array.php">Array</a> |
     <a href="">Float</a> |
     <a href="">Boolean</a> |
-    <a href="">Array</a>
+    <a href="json_ic-main/cv.php">CV</a>
+
+    
 </nav>
 
 </div>
