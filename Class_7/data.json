@@ -1,0 +1,39 @@
+{
+ "quiz": {
+  "sport": {
+   "q1": {
+    "question":"Which one is correct team name in Uefa Champions League 2020?",
+    "options": [
+     "Southampton",
+     "Real Madrid",
+     "Barcelona",
+     "Juventus"
+    ],
+    "answer":"3. Barcelona"
+   }
+  },
+  "history": {
+   "q1": {
+    "question":"The Treaty of Versailles was signed in which year of World War I?",
+    "options": [
+     "1917",
+     "1918",
+     "1919",
+     "1920"
+    ],
+    "answer":"3. 1919"
+   },
+   "q2": {
+    "question":"The American Civil War was fought between which years?",
+    "options": [
+     "1861 - 1865",
+     "1862 - 1866",
+     "1863 - 1867",
+     "1864 - 1868"
+    ],
+    "answer":"1. 1861 - 1865"
+   }
+  }
+ }
+}
+

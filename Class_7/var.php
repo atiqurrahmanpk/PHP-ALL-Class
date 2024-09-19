@@ -1,4 +1,6 @@
 <?php
-$next_cl="Next Class";
-$com_soon = "COMMING SOON";
+$next_cl="Hasin Haider";
+$com_soon = "Json Quizes";
+
+
 

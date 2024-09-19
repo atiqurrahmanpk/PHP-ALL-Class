@@ -1,0 +1,127 @@
+PHP provides a wide variety of array functions that are frequently used for manipulating and interacting with arrays. Some of the most commonly used array functions include:
+1. array_push()
+
+    Adds one or more elements to the end of an array.
+
+php
+
+$arr = ["apple", "banana"];
+array_push($arr, "cherry");
+print_r($arr); // Output: Array ( [0] => apple [1] => banana [2] => cherry )
+
+2. array_pop()
+
+    Removes the last element from an array.
+
+php
+
+$arr = ["apple", "banana", "cherry"];
+array_pop($arr);
+print_r($arr); // Output: Array ( [0] => apple [1] => banana )
+
+3. array_merge()
+
+    Merges one or more arrays into one.
+
+php
+
+$arr1 = ["apple", "banana"];
+$arr2 = ["cherry", "date"];
+$result = array_merge($arr1, $arr2);
+print_r($result); // Output: Array ( [0] => apple [1] => banana [2] => cherry [3] => date )
+
+4. array_diff()
+
+    Compares arrays and returns the differences.
+
+php
+
+$arr1 = ["apple", "banana", "cherry"];
+$arr2 = ["banana", "date"];
+$result = array_diff($arr1, $arr2);
+print_r($result); // Output: Array ( [0] => apple [2] => cherry )
+
+5. array_keys()
+
+    Returns all the keys of an array.
+
+php
+
+$arr = ["a" => "apple", "b" => "banana"];
+$keys = array_keys($arr);
+print_r($keys); // Output: Array ( [0] => a [1] => b )
+
+6. array_values()
+
+    Returns all the values of an array.
+
+php
+
+$arr = ["a" => "apple", "b" => "banana"];
+$values = array_values($arr);
+print_r($values); // Output: Array ( [0] => apple [1] => banana )
+
+7. in_array()
+
+    Checks if a value exists in an array.
+
+php
+
+$arr = ["apple", "banana", "cherry"];
+if (in_array("banana", $arr)) {
+    echo "Banana is in the array";
+}
+
+8. array_map()
+
+    Applies a callback function to each element of an array.
+
+php
+
+$arr = [1, 2, 3];
+$result = array_map(function($num) {
+    return $num * 2;
+}, $arr);
+print_r($result); // Output: Array ( [0] => 2 [1] => 4 [2] => 6 )
+
+9. array_filter()
+
+    Filters elements of an array using a callback function.
+
+php
+
+$arr = [1, 2, 3, 4, 5];
+$result = array_filter($arr, function($num) {
+    return $num % 2 == 0;
+});
+print_r($result); // Output: Array ( [1] => 2 [3] => 4 )
+
+10. array_reduce()
+
+    Iteratively reduces the array to a single value using a callback function.
+
+php
+
+$arr = [1, 2, 3, 4];
+$result = array_reduce($arr, function($carry, $item) {
+    return $carry + $item;
+}, 0);
+echo $result; // Output: 10
+
+These functions are widely used and provide powerful ways to manipulate arrays in PHP.
+===========================
+Hasin haider=19/09/2024
+Quiz -> JSON => GitHub link https://github.com/LearnWithHasinHayder/json-quiz/tree/master
+--------------
+for Css :
+https://matcha.mizu.sh/
+<link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
+
+................
+For AI Code
+https://docs.codeium.com/overview/getting-started
+
+---------------
+Laravel Hard for 
+https://herd.laravel.com/windows
+
