@@ -118,10 +118,27 @@ https://matcha.mizu.sh/
 <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
 
 ................
-For AI Code
+For AI Code => vs code=> extension: codeium 
+code search (vs code) => Ctrl + I
 https://docs.codeium.com/overview/getting-started
 
 ---------------
 Laravel Hard for 
 https://herd.laravel.com/windows
+==========================
+Faisal Ahmed=21/09/2024
+
+Alt+ Down Array = Auto Copy Down
+---------------
+Help for css= https://watercss.kognise.dev/
+
+example Blog Site = https://blog.codewithdary.com/
+
+
+
+
+
+
+
+
 

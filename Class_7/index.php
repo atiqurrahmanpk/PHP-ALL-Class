@@ -28,13 +28,7 @@
         </h2>
 
     </div>
-    # Remote html form
-    <form action="" method="post">
-        <input type="text">
-        
-    </form>
-    </body>
-    </html>
+    
 </body>
 </html>
 
