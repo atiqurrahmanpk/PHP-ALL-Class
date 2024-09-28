@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css">
-    <title>Data</title>
+    <title>Date Time</title>
 </head>
 <body>
     <div>
@@ -35,19 +35,12 @@
 
 
 /** 
- * Firstly login Phpmyadmin 
- * next create a file named adduser.php and copy this code and miligram css add
- * next create a form and copy this code,
- * next form customize,
- * Next create database and table
- * next create a file named connection.php and use $connection = new mysqli('localhost','username','password','database_name')
- * next check database connection and if connection is successful then go to next line and run this code{*** use die(mysqli_error($connection)) *** }
- * next adduser.php te connection.php include korte hobe
- * next video 25:41
- * next
- * next
- * next
- * next
+ *  
+ * 
+ * 
+ * 
+ * 
+ * 
  */
     
 </body>
