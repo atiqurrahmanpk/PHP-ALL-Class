@@ -1,4 +1,4 @@
 <?php
-$next_cl="Next Class";
-$com_soon = "COMMING SOON";
+$next_cl="Faisal Ahmed";
+$com_soon = "SQL Command";
 
