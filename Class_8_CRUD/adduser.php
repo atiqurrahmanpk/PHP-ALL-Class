@@ -21,12 +21,32 @@
   <div class="container">
     <div class="row">
         <div class="column">
-            abc
+        <form>
+            <fieldset>
+                <label for="nameField">Name</label>
+                <input type="text" placeholder="Your Name" name="name" id="nameField">
+
+                <label for="emailField">Email</label>
+                <input type="email" placeholder="example@ex.com" name="email" id="emailField">
+
+                <label for="phoneField">Phone Number</label>
+                <input type="number" placeholder="017XXXXXXXX" name="phone" id="phoneField">
+
+                <label for="gradeField">Grade</label>
+                <input type="text" placeholder="A+,B,C" name="grade" id="gradeField">
+            
+            
+                <button type="submit" name="submit" id="submit" class="button">Add User</button>
+            </fieldset>
+        </form>
         </div>
     </div>
   </div>
 
+/**
+Video 00:20:00
 
+*/
 
 
 

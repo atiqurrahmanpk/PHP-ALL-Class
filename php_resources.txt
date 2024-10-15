@@ -1,0 +1,57 @@
+1.Environment Setup PHP :
+https://youtu.be/xmPlpGR9KSw?si=DN5Q9ScNLd4CkK8h
+
+2. Convert html template to php
+
+https://github.com/faisal2410/restaurant_ic
+
+3.Git and Github :
+
+https://alnahian2003.notion.site/Module-2-Intro-to-Git-Github-a48806b72c9a476e82f1b75c37c6e2c2
+
+https://github.com/faisal2410/php_environment_setup
+
+Mastering Markdown :
+https://www.youtube.com/playlist?list=PL4iFnndHldujadpMi4ItwO2YyY5zD8HLV
+
+4.How to study PHP manual
+
+https://github.com/faisal2410/php_manual
+
+5.Building Dynamic Websites: Integrating JSON Data with PHP
+
+https://github.com/faisal2410/json_ic
+
+6.Simple PHP Projects source code for practice :
+
+https://github.com/faisal2410/php_projects
+
+7.Pseudo code for problem solving
+
+https://github.com/faisal2410/pseudo_code
+
+8.User input processing through command line
+
+https://github.com/faisal2410/cli_ic
+
+
+9.Building a Quiz Application with Multiple Quizzes from a Directory
+
+https://github.com/LearnWithHasinHayder/json-quiz
+
+10.Query Parameter, Path Parameter, Link building, $_GET, $_POST
+
+https://github.com/faisal2410/superglobal
+
+
+9.Basic Object Oriented Programming :
+
+https://github.com/faisal2410/oop_concept
+
+
+11.Error Handling in PHP:
+
+https://atlantic-viola-f05.notion.site/Hierarchy-of-PHP-exceptions-11964b6a06b980ddb703cacb34fbd100
+
+https://sentry.io/welcome/
+
