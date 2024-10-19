@@ -1,3 +1,11 @@
+Alt+ Down Array = Auto Copy Down
+----------------
+Comment out a line of code
+Use the shortcut Ctrl+/ on Windows or Command+/ on Mac
+-------------------
+
+
+
 PHP provides a wide variety of array functions that are frequently used for manipulating and interacting with arrays. Some of the most commonly used array functions include:
 1. array_push()
 

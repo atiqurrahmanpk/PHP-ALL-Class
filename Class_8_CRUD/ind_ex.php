@@ -65,6 +65,7 @@
  * next create a file named connection.php and use $connection = new mysqli('localhost','username','password','database_name') <br>
  * next check database connection and if connection is successful then go to next line and run this code{*** use die(mysqli_error($connection)) *** } <br>
  * next adduser.php te connection.php include korte hobe
+ 
  * next Form input a name dite hobe and action method dite hobe <br>
  * next adduser.php te if else use korte hobe <br>
  * next Form a method Post dite hobe. <br>
